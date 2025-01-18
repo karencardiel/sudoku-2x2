@@ -2,7 +2,7 @@
 
 Este proyecto implementa un solucionador de Sudoku 2x2 en Prolog. El objetivo principal es resolver un Sudoku 2x2, asegurando que las reglas del juego se cumplan: cada número en las filas y columnas debe ser único.
 
-## Descripción del Proyecto
+## Descripción del proyecto
 
 El programa incluye las siguientes funcionalidades:
 
@@ -13,7 +13,7 @@ El programa incluye las siguientes funcionalidades:
 5. **Impresión del Sudoku:** Muestra el Sudoku en un formato legible.
 6. **Búsqueda de soluciones:** Encuentra y muestra todas las soluciones válidas para un Sudoku 2x2.
 
-## Cómo uarlo
+## Cómo usarlo
 
 ### Requisitos
 
