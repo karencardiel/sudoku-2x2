@@ -59,7 +59,7 @@ El programa incluye las siguientes funcionalidades:
      ?- sudoku.
      ```
 
-## Ejemplo de Salida
+## Ejemplo de salida
 
 Para la consulta `?- sudoku.`:
 
@@ -83,13 +83,10 @@ No hay más soluciones.
 - Universidad Politécnica de Yucatán
 - Curso: Paradigmas de Programación
 
-## Fecha de Entrega
+## Fecha de entrega
 
 24 de noviembre de 2024
 
 ---
 
 **Nota:** Este programa fue desarrollado como parte de un proyecto académico. ¡Esperamos que sea útil para aprender más sobre Prolog y resolver Sudokus pequeños!
-```
-
-¿Quieres personalizar algo más o agregar enlaces adicionales?
