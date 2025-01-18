@@ -77,8 +77,8 @@ No hay más soluciones.
 
 ## Créditos
 
-- **Karen Cardiel Olea (2209039)**
-- **Elisabet Arelly Sulú Vela (2309212)**
+- **Karen Cardiel Olea**
+- **Elisabet Arelly Sulú Vela**
 - Profesor: **Ernesto Manuel Ihuit Dzib**
 - Universidad Politécnica de Yucatán
 - Asignatura: Paradigmas de Programación
