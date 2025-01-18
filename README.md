@@ -81,7 +81,7 @@ No hay más soluciones.
 - **Elisabet Arelly Sulú Vela (2309212)**
 - Profesor: **Ernesto Manuel Ihuit Dzib**
 - Universidad Politécnica de Yucatán
-- Curso: Paradigmas de Programación
+- Asignatura: Paradigmas de Programación
 
 ## Fecha de entrega
 
