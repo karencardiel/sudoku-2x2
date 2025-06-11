@@ -1,68 +1,61 @@
-# Sudoku 2x2
+# 🧩 2x2 Sudoku Solver
 
-Este proyecto implementa un solucionador de Sudoku 2x2 en Prolog. El objetivo principal es resolver un Sudoku 2x2, asegurando que las reglas del juego se cumplan: cada número en las filas y columnas debe ser único.
+This project implements a 2x2 Sudoku solver in Prolog. The main objective is to solve a 2x2 Sudoku while ensuring that the game rules are met: each number in rows and columns must be unique.
 
-## Descripción del proyecto
+## 📋 Project Description
 
-El programa incluye las siguientes funcionalidades:
+The program includes the following functionalities:
 
-1. **Definición de números válidos:** Los números permitidos son 1 y 2.
-2. **Validación de filas:** Verifica que los números en una fila sean diferentes y pertenezcan al conjunto válido.
-3. **Validación de celdas:** Representa las filas del Sudoku como `[[A1, A2], [B1, B2]]`, donde `A1`, `A2`, `B1`, y `B2` son las celdas de la cuadrícula.
-4. **Generación de Sudokus válidos:** Asigna números válidos a cada celda del Sudoku.
-5. **Impresión del Sudoku:** Muestra el Sudoku en un formato legible.
-6. **Búsqueda de soluciones:** Encuentra y muestra todas las soluciones válidas para un Sudoku 2x2.
+1. **Valid numbers definition:** The allowed numbers are 1 and 2.
+2. **Row validation:** Verifies that numbers in a row are different and belong to the valid set.
+3. **Cell validation:** Represents Sudoku rows as `[[A1, A2], [B1, B2]]`, where `A1`, `A2`, `B1`, and `B2` are the grid cells.
+4. **Valid Sudoku generation:** Assigns valid numbers to each Sudoku cell.
+5. **Sudoku printing:** Displays the Sudoku in a readable format.
+6. **Solution search:** Finds and displays all valid solutions for a 2x2 Sudoku.
 
-## Cómo usarlo
+## 🚀 How to Use
 
-### Requisitos
+### Requirements
+- [SWI-Prolog](https://www.swi-prolog.org) version 9.2.8 or higher.
 
-- [SWI-Prolog](https://www.swi-prolog.org) versión 9.2.8 o superior.
-
-### Ejecución
-
-1. Clona este repositorio:
-
+### Execution
+1. Clone this repository:
    ```bash
-   git clone https://github.com/tuusuario/sudoku-2x2-solver.git
+   git clone https://github.com/yourusername/sudoku-2x2-solver.git
    cd sudoku-2x2-solver
    ```
 
-2. Abre SWI-Prolog en la terminal:
-
+2. Open SWI-Prolog in the terminal:
    ```bash
    swipl
    ```
 
-3. Carga el archivo del programa:
-
+3. Load the program file:
    ```prolog
    ?- consult('sudoku.pl').
    ```
 
-4. Realiza consultas como las siguientes:
-
-   - Validar una fila:
+4. Make queries like the following:
+   - Validate a row:
      ```prolog
      ?- fila_correcta([1, 2]).
      ```
-   - Verificar una cuadrícula específica:
+   - Verify a specific grid:
      ```prolog
      ?- sudoku_2x2([[1, 2], [2, 1]]).
      ```
-   - Generar un Sudoku válido:
+   - Generate a valid Sudoku:
      ```prolog
      ?- sudoku_2x2(Sudoku).
      ```
-   - Encontrar todas las soluciones:
+   - Find all solutions:
      ```prolog
      ?- sudoku.
      ```
 
-## Ejemplo de salida
+## 📊 Example Output
 
-Para la consulta `?- sudoku.`:
-
+For the query `?- sudoku.`:
 ```
 ---
 1 2
@@ -72,21 +65,67 @@ Para la consulta `?- sudoku.`:
 2 1
 1 2
 ---
-No hay más soluciones.
+No more solutions.
 ```
 
-## Créditos
+## 👥 Credits
 
 - **Karen Cardiel Olea**
 - **Elisabet Arelly Sulú Vela**
-- Profesor: **Ernesto Manuel Ihuit Dzib**
-- Universidad Politécnica de Yucatán
-- Asignatura: Paradigmas de Programación
+- Professor: **Ernesto Manuel Ihuit Dzib**
+- Universidad Politécnica de Yucatán (Polytechnic University of Yucatan)
+- Subject: Programming Paradigms
 
-## Fecha de entrega
+## 📅 Submission Date
 
-24 de noviembre de 2024
+November 24, 2024
 
 ---
 
-**Nota:** Este programa fue desarrollado como parte de un proyecto académico. ¡Esperamos que sea útil para aprender más sobre Prolog y resolver Sudokus pequeños!
+## 📂 File Structure
+```
+project/
+├── 🧩 sudoku.pl
+├── 📓 examples.pl
+└── 📖 README.md
+```
+
+## 🔍 Key Features
+
+| Feature | Description |
+|---------|-------------|
+| ✅ **Constraint Validation** | Ensures all Sudoku rules are followed |
+| 🔢 **Number Generation** | Automatically assigns valid numbers (1, 2) |
+| 🖨️ **Pretty Printing** | Displays solutions in a clean, readable format |
+| 🔄 **Multiple Solutions** | Finds and displays all possible valid solutions |
+| ⚡ **Efficient Search** | Uses Prolog's backtracking for optimal solution finding |
+
+## 🛠️ Technical Implementation
+
+The solver uses Prolog's logical programming paradigm to:
+- Define constraints for valid Sudoku grids
+- Use backtracking to explore all possible solutions
+- Validate rows and columns automatically
+- Generate complete solutions from partial grids
+
+## 🎯 Learning Objectives
+
+This project demonstrates:
+- **Logical Programming:** Understanding Prolog's declarative approach
+- **Constraint Satisfaction:** Implementing rule-based problem solving
+- **Backtracking Algorithms:** Exploring solution spaces efficiently
+- **Pattern Matching:** Using Prolog's unification mechanism
+
+## 🚀 Future Enhancements
+
+Potential improvements:
+- 🔧 Extend to 4x4 or 9x9 Sudoku grids
+- 📊 Add difficulty level generation
+- 🎮 Create interactive gameplay interface
+- ⏱️ Implement performance benchmarking
+- 🧪 Add unit testing framework
+---
+
+**Note:** This program was developed as part of an academic project. We hope it's useful for learning more about Prolog and solving small Sudokus! 🎓
+
+⭐ **Star this repository if you find it helpful!**
