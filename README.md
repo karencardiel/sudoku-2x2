@@ -68,6 +68,14 @@ For the query `?- sudoku.`:
 No more solutions.
 ```
 
+## 📂 File Structure
+```
+project/
+├── 🧩 sudoku.pl
+├── 📓 examples.pl
+└── 📖 README.md
+```
+
 ## 👥 Credits
 
 - **Karen Cardiel Olea**
@@ -80,50 +88,6 @@ No more solutions.
 
 November 24, 2024
 
----
-
-## 📂 File Structure
-```
-project/
-├── 🧩 sudoku.pl
-├── 📓 examples.pl
-└── 📖 README.md
-```
-
-## 🔍 Key Features
-
-| Feature | Description |
-|---------|-------------|
-| ✅ **Constraint Validation** | Ensures all Sudoku rules are followed |
-| 🔢 **Number Generation** | Automatically assigns valid numbers (1, 2) |
-| 🖨️ **Pretty Printing** | Displays solutions in a clean, readable format |
-| 🔄 **Multiple Solutions** | Finds and displays all possible valid solutions |
-| ⚡ **Efficient Search** | Uses Prolog's backtracking for optimal solution finding |
-
-## 🛠️ Technical Implementation
-
-The solver uses Prolog's logical programming paradigm to:
-- Define constraints for valid Sudoku grids
-- Use backtracking to explore all possible solutions
-- Validate rows and columns automatically
-- Generate complete solutions from partial grids
-
-## 🎯 Learning Objectives
-
-This project demonstrates:
-- **Logical Programming:** Understanding Prolog's declarative approach
-- **Constraint Satisfaction:** Implementing rule-based problem solving
-- **Backtracking Algorithms:** Exploring solution spaces efficiently
-- **Pattern Matching:** Using Prolog's unification mechanism
-
-## 🚀 Future Enhancements
-
-Potential improvements:
-- 🔧 Extend to 4x4 or 9x9 Sudoku grids
-- 📊 Add difficulty level generation
-- 🎮 Create interactive gameplay interface
-- ⏱️ Implement performance benchmarking
-- 🧪 Add unit testing framework
 ---
 
 **Note:** This program was developed as part of an academic project. We hope it's useful for learning more about Prolog and solving small Sudokus! 🎓
